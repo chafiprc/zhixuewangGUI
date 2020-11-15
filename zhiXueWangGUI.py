@@ -103,7 +103,7 @@ class zxwWindow:
             try:
                 mark = str(self.person.get_self_mark(self.nowExam.id))
                 self.write_log_to_Text('查询成绩')
-                self.write_log_to_Text('\n'+mark+'\n(若有排名为未赋分排名)'+'\n点击清除按钮清空文本框')
+                self.write_log_to_Text('\n'+mark+'\n(若有排名为也许为未赋分排名，也许为赋分排名)'+'\n点击清除按钮清空文本框')
             except AttributeError:
                 self.write_log_to_Text('您还未登录，请登录之后再试')
                 return
@@ -112,7 +112,7 @@ class zxwWindow:
             try:
                 mark = str(self.person.get_self_mark(self.nowExam.id,False))
                 self.write_log_to_Text('查询成绩')
-                self.write_log_to_Text('\n'+mark+'\n(若有排名为未赋分排名)'+'\n点击清除按钮清空文本框')
+                self.write_log_to_Text('\n'+mark+'\n(若有排名为也许为未赋分排名，也许为赋分排名)'+'\n点击清除按钮清空文本框')
             except KeyError:
                 self.write_log_to_Text('无法获取试卷资料，请稍后再试')
                 return
