@@ -147,7 +147,7 @@ class zxwWindow:
         self.log_data.delete(1.0,tk.END)
 
     def about(self):
-        self.write_log_to_Text('\nzhiXueWangGUI:\nMade by chafiprc.')
+        self.write_log_to_Text('\nzhiXueWangGUI:该程序基于zhixuewang(https://github.com/anwenhu/zhixuewang-python)包，GUI基于tkinter，并用了pyinstaller进行打包，做了一些简单的功能。\nMade by chafiprc.')
         self.write_log_to_Text('\n免责声明:\n本软件仅供个人学习、研究。我们不保证内容的正确性。通过使用本软件随之而来的风险与软件制作者无关\n软件仅用于个人学习、研究以及其他非商业性或非盈利性用途，但同时应遵守著作权法及其他相关法律的规定，不得相关人的合法权利。\n如果用户下载、使用本软件，即表明用户信任该软件作者\n对任何原因在使用本软件时可能对用户自己或他人造成的任何形式的损失和伤害,软件制作者不承担任何责任。')
 
 
