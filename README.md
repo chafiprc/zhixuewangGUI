@@ -6,7 +6,7 @@
 
 
 # 使用
-可直接clone下列，运行zhixuewangGUI.py即可  
+可直接clone下载，运行zhixuewangGUI.py即可  
 也可下载release中的exe文件，双击运行
 
 
